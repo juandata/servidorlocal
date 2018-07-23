@@ -360,6 +360,9 @@ app.post("/searchImages", function(req, res){
   });
 
 })
+app.get("/testingExpress", function(req, res){
+  res.send("Express is working");
+});
 app.use(function(req, res) {
   res.sendFile(path.join(__dirname, '../../dist/index.html'));
 })
