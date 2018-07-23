@@ -2,7 +2,7 @@
   "name": "polls-creation-app",
   "version": "1.0.0",
   "description": "Polls Creation APP built as a full stack web application using React, Node.js, Express and Webpack.",
-  "main": "server/index.js",
+  "main": "src/server/index.js",
   "scripts": {
     "start": "node src/server/index.js",
     "build": "webpack --mode production",
