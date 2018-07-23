@@ -1,0 +1,5 @@
+{
+  "secret": "the secret",
+  "audience": "the audience",
+  "issuer": "http://juandavidarce.co/"
+}
